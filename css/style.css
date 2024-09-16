@@ -1,0 +1,72 @@
+/* :root{
+    --bg-color1: #212529;
+    --bg-color2: #2a2b2d; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height:100vh;
+    background-color :rgb(37, 37, 192);
+    color: #fff;
+    font-family:sans-serif;
+    padding: 0;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(2, 2, 20);
+    color:#fff;
+}
+   .header{
+    
+    
+    top: 100px;
+    background-color:rgb(5, 5, 43);
+    display: felx;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    color:#fff;
+    padding: 1;
+    & #city_input{
+        background-color:#fff;
+        border: 10px;;
+        padding: 50px;
+        font-size: 15px;
+        border-radius: 25px;
+        color: #fff;
+        &:focus{
+            outline: none;
+
+        }
+    }
+    & #search-form{
+        border: 5px;
+        font-size: 15px;
+        padding: 50px;
+        border-radius: 50px;
+        background-color: #fff;
+        cursor: pointer;
+        margin: 30px;
+
+
+    } 
+
+    
+   }    
+.forcast {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-top: 40px;
+    
+}
+.today {
+    border: 2px white solid
+    
+}
+
+
