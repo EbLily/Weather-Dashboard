@@ -43,6 +43,7 @@ function weeklyForcast(lat,lon){
     return response.json()
    }).then(function(fivedaydata){
     
+    
     const fivedayarray = fivedaydata.list.filter(day=>day.dt_txt.includes("12:00:00"))
     let forecastcard = ""
     for(let day of fivedayarray){
@@ -50,6 +51,7 @@ function weeklyForcast(lat,lon){
         const todayDate = new Date(day.dt * 1000 ).toLocaleDateString()
         forecastcard +=`
         <div>
+           <img src="https://openweathermap.org/img/wn/${day.weather[0].icon}.png"/>
         <p>${todayDate}</p>
         <p>temp: ${day.main.temp}</p>
         <p>humidity: ${day.main.humidity}</p>
