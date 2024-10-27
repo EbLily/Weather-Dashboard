@@ -26,6 +26,12 @@ This weather dashboard using weather API is to show the weather of a specific ci
   ## Usage
   
   It's a weather app which uses openWeather API to show the weather forcast for any city in the world.
+ ## Deployed Link 
+
+
+ ## Screenshots
+  
+ ![Screenshot of my website](./assets/weather%20dashbord.PNG)
 
   
 
