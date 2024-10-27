@@ -27,7 +27,7 @@ This weather dashboard using weather API is to show the weather of a specific ci
   
   It's a weather app which uses openWeather API to show the weather forcast for any city in the world.
  ## Deployed Link 
-
+ [Deployed APP](https://eblily.github.io/Weather-Dashboard/)
 
  ## Screenshots
   
