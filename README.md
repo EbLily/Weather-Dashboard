@@ -35,10 +35,6 @@ This weather dashboard using weather API is to show the weather of a specific ci
 
   
 
-  ## Test
-
-  N/A
-
   ## Contributors 
 
   N/A
